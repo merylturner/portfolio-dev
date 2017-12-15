@@ -29,12 +29,12 @@ export default function About() {
             <div className="skills">
                 {/* display name when hover over */}
                 <div style={{margin: '20px auto'}}>
-                    <i class="devicon-javascript-plain"></i>
-                    <i class="devicon-react-original"></i>
-                    <i class="devicon-angularjs-plain"></i>
-                    <i class="devicon-css3-plain"></i>
-                    <i class="devicon-nodejs-plain-wordmark"></i>
-                    <i class="devicon-html5-plain"></i>
+                    <span title="JavaScript"><i class="devicon-javascript-plain"></i></span>
+                    <span title="React"><i class="devicon-react-original"></i></span>
+                    <span title="AngularJS"><i class="devicon-angularjs-plain"></i></span>
+                    <span title="NodeJS"><i class="devicon-nodejs-plain-wordmark"></i></span>
+                    <span title="Git"><i class="devicon-git-plain"></i></span>
+                    <span title="CSS"><i class="devicon-css3-plain"></i></span>
                 </div>
                 {/* <i class="devicon-docker-plain"></i> */}
                 {/* <i class="devicon-express-original-wordmark"></i> */}
@@ -42,12 +42,12 @@ export default function About() {
                 {/* <i class="devicon-heroku-original"></i> */}
                 {/* <i class="devicon-protractor-plain-wordmark"></i> */}
                 <div style={{margin: '20px auto'}}>
-                    <i class="devicon-less-plain-wordmark"></i>
-                    <i class="devicon-git-plain"></i>
-                    <i class="devicon-python-plain"></i>
-                    <i class="devicon-mocha-plain"></i>
-                    <i class="devicon-mongodb-plain"></i>
-                    <i class="devicon-amazonwebservices-original"></i>
+                    <span title="HTML"><i class="devicon-html5-plain"></i></span>
+                    <span title="LESS"><i class="devicon-less-plain-wordmark"></i></span>
+                    <span title="AWS"><i class="devicon-amazonwebservices-original"></i></span>
+                    <span title="Python"><i class="devicon-python-plain"></i></span>
+                    <span title="Mocha"><i class="devicon-mocha-plain"></i></span>
+                    <span title="MongoDB"><i class="devicon-mongodb-plain"></i></span>
                 </div>
                 {/* <i class="devicon-illustrator-line"></i>
                 <i class="devicon-photoshop-line"></i> */}
