@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import Github from '../images/Github.png';
+import github from '../images/git.png';
 
 // import { Home } from './Components/Home';
 // import { About } from './Components/About';
@@ -24,7 +24,7 @@ class App extends Component {
                     <header className="App-header">
                         <h1>Hey, I'm Meryl</h1>
                     </header>
-                    <img src={Github} alt="github-logo"/>
+                    <img src={github} alt="github-logo"/>
                     <p className="App-intro">Software Developer & Graphic Designer</p>
                 </div>
                 <div>
