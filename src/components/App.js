@@ -17,7 +17,6 @@ import '../App.css';
 function Footer() {
     return(
         <div className="social">
-            {/* Social Media Profiles: Linkedin, Github, Twitter, Instagram,  */}
             <a href="https://github.com/merylturner"><img src={github} alt="github-logo"/></a>
             <a href="https://www.facebook.com/meryl.a.turner"><img src={fb} alt="fb-logo"/></a>
             <a href="https://www.instagram.com/madebymeryl/"><img src={insta} alt="insta-logo"/></a>
