@@ -15,7 +15,11 @@ export default function Contact() {
     return (
         <div>
             <Navigation/>
-            Contact Me.
+            <header>
+                <h2>Get In Touch</h2>
+            </header>
+            <hr/>
+            Hey, yo.
         </div>
     );
 }

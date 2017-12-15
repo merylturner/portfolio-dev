@@ -15,7 +15,11 @@ export default function Work() {
     return (
         <div>
             <Navigation/>
-            I'm Work.
+            <header>
+                <h2>My Work</h2>
+            </header>
+            <hr/>
+            Werk Werk Werk Werk Werk.
         </div>
     );
 }

@@ -15,6 +15,10 @@ export default function About() {
     return (
         <div>
             <Navigation/>
+            <header>
+                <h2>About me </h2>
+            </header>
+            <hr/>
             I'm About all the stuff.
             Checkout my Graphic Design <a href="https://www.madebymeryl.com">Portfolio</a>
         </div>

@@ -16,12 +16,17 @@ import '../App.css';
 
 function Footer() {
     return(
-        <div className="social">
-            <a href="https://github.com/merylturner"><img src={github} alt="github-logo"/></a>
-            <a href="https://www.facebook.com/meryl.a.turner"><img src={fb} alt="fb-logo"/></a>
-            <a href="https://www.instagram.com/madebymeryl/"><img src={insta} alt="insta-logo"/></a>
-            <a href="https://www.linkedin.com/in/merylturner/"><img src={linkedin} alt="linkedin-logo"/></a>
-            <a href="https://twitter.com/madebymeryl"><img src={twitter} alt="twitter-logo"/></a>
+        <div className="footer">
+            <div className="social">
+                <a href="https://github.com/merylturner"><img src={github} alt="github-logo"/></a>
+                <a href="https://www.facebook.com/meryl.a.turner"><img src={fb} alt="fb-logo"/></a>
+                <a href="https://www.instagram.com/madebymeryl/"><img src={insta} alt="insta-logo"/></a>
+                <a href="https://www.linkedin.com/in/merylturner/"><img src={linkedin} alt="linkedin-logo"/></a>
+                <a href="https://twitter.com/madebymeryl"><img src={twitter} alt="twitter-logo"/></a>
+            </div>
+            <div className="copyright">
+            Meryl Turner &copy; 2017
+            </div>
         </div>
     );
 }
