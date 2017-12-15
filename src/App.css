@@ -1,3 +1,4 @@
+/*          CLASSES         */
 .App {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
@@ -33,6 +34,13 @@
   position: absolute;
   width: 100%;
 }
+
+/*          ELEMENTS         */
+a {
+  text-decoration: none;
+}
+/*          MEDIA QUERIES         */
+
 /* @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }

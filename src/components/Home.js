@@ -1,10 +1,21 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-export default function Home(){
+function Navigation() {
+    return(
+        <div>
+            <Link to="/about"> About </Link>
+            <Link to="/contact"> Contact </Link>
+            <Link to="/work"> Work </Link>
+        </div>
+    );    
+}
+
+export default function Home() {
     return (
         <div>
-            I'm Home.
             <div>
+                <Navigation/>
                 <header className="App-header">
                     <h1>Hey, I'm Meryl</h1>
                 </header>
