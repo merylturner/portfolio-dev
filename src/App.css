@@ -24,9 +24,14 @@
   font-size: large;
 }
 
-.social img {
-  width: 30px;
-  margin: 10px;
+.social i {
+  font-size: 20px;
+  margin: 5px;
+  color:black;
+}
+
+.social i:hover {
+  color:#7cb89a;
 }
 
 .copyright {
@@ -35,7 +40,7 @@
 
 .footer {
   bottom: 10px;
-  position: absolute;
+  position: fixed;
   width: 100%;
 }
 
@@ -50,8 +55,20 @@
   color: black;
 }
 
+.skills {
+  /* color:#7cb89a; */
+  color:black;
+  display: block;
+  margin: 90px 50px;
+}
 
 /*          ELEMENTS         */
+
+i {
+  font-size: 40px;
+  margin: 20px 20px;
+}
+
 a {
   text-decoration: none;
 }
@@ -76,7 +93,7 @@ hr {
   height: 10px;
   width: 50px;
   border-bottom: 5px solid #7cb89a;
-  margin-bottom: 100px;
+  margin-bottom: 60px;
   margin-top: 0;
 }
 

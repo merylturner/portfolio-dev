@@ -1,10 +1,5 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import github from '../images/github2.png';
-import fb from '../images/facebook.png';
-import insta from '../images/instagram.png';
-import linkedin from '../images/linkedin.png';
-import twitter from '../images/twitter.png';
 
 import styled from 'styled-components';
 import Home from './Home';
@@ -18,11 +13,11 @@ function Footer() {
     return(
         <div className="footer">
             <div className="social">
-                <a href="https://github.com/merylturner"><img src={github} alt="github-logo"/></a>
-                <a href="https://www.facebook.com/meryl.a.turner"><img src={fb} alt="fb-logo"/></a>
-                <a href="https://www.instagram.com/madebymeryl/"><img src={insta} alt="insta-logo"/></a>
-                <a href="https://www.linkedin.com/in/merylturner/"><img src={linkedin} alt="linkedin-logo"/></a>
-                <a href="https://twitter.com/madebymeryl"><img src={twitter} alt="twitter-logo"/></a>
+                <a href="https://github.com/merylturner"><i class="fa fa-github" aria-hidden="true"></i></a>
+                <a href="https://www.facebook.com/meryl.a.turner"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="https://www.instagram.com/madebymeryl/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="https://www.linkedin.com/in/merylturner/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                <a href="https://twitter.com/madebymeryl"><i class="fa fa-twitter" aria-hidden="true"></i></a>
             </div>
             <div className="copyright">
             Meryl Turner &copy; 2017
