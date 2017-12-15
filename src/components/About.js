@@ -27,7 +27,6 @@ export default function About() {
             </header>
             <hr/>
             <div className="skills">
-                {/* display name when hover over */}
                 <div style={{margin: '20px auto'}}>
                     <span title="JavaScript"><i class="devicon-javascript-plain"></i></span>
                     <span title="React"><i class="devicon-react-original"></i></span>
@@ -36,9 +35,6 @@ export default function About() {
                     <span title="Git"><i class="devicon-git-plain"></i></span>
                     <span title="CSS"><i class="devicon-css3-plain"></i></span>
                 </div>
-                {/* <i class="devicon-docker-plain"></i> */}
-                {/* <i class="devicon-express-original-wordmark"></i> */}
-                {/* <i class="devicon-github-plain"></i> */}
                 {/* <i class="devicon-heroku-original"></i> */}
                 {/* <i class="devicon-protractor-plain-wordmark"></i> */}
                 <div style={{margin: '20px auto'}}>
@@ -49,8 +45,11 @@ export default function About() {
                     <span title="Mocha"><i class="devicon-mocha-plain"></i></span>
                     <span title="MongoDB"><i class="devicon-mongodb-plain"></i></span>
                 </div>
-                {/* <i class="devicon-illustrator-line"></i>
-                <i class="devicon-photoshop-line"></i> */}
+                {/* Designer Icons
+                <div>
+                    <i class="devicon-illustrator-line"></i>
+                    <i class="devicon-photoshop-line"></i>
+                </div> */}
             </div>
         </div>
     );
