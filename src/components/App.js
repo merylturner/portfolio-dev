@@ -1,6 +1,11 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import github from '../images/git.png';
+import github from '../images/github2.png';
+import fb from '../images/facebook.png';
+import insta from '../images/instagram.png';
+import linkedin from '../images/linkedin.png';
+import twitter from '../images/twitter.png';
+
 import styled from 'styled-components';
 // import { Home } from './Components/Home';
 // import { About } from './Components/About';
@@ -8,16 +13,15 @@ import styled from 'styled-components';
 
 import '../App.css';
 
-const Social = styled.div`
-    width: 10px;
-    text-align: center;
-`;
-
 function Footer(){
     return(
-        <div>
+        <div className="social">
             {/* Social Media Profiles: Linkedin, Github, Twitter, Instagram,  */}
             <img src={github} alt="github-logo"/>
+            <img src={fb} alt="fb-logo"/>
+            <img src={insta} alt="insta-logo"/>
+            <img src={linkedin} alt="linkedin-logo"/>
+            <img src={twitter} alt="twitter-logo"/>
         </div>
     );
 }
@@ -41,7 +45,7 @@ class App extends Component {
                         </div>
                     </Router>
                 </div>
-                <Social><Footer/></Social>
+                <Footer/>
             </div>
         );
     }

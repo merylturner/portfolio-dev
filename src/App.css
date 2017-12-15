@@ -23,6 +23,16 @@
   font-size: large;
 }
 
+.social img {
+  width: 30px;
+  margin: 10px;
+}
+
+.social {
+  bottom: 10px;
+  position: absolute;
+  width: 100%;
+}
 /* @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
