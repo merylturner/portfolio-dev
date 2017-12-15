@@ -7,9 +7,10 @@ import linkedin from '../images/linkedin.png';
 import twitter from '../images/twitter.png';
 
 import styled from 'styled-components';
-// import { Home } from './Components/Home';
-// import { About } from './Components/About';
-// import { Contact } from './Components/Contact';
+import { Home } from './components/Home';
+import { About } from './components/About';
+import { Work } from './components/Work';
+import { Contact } from './components/Contact';
 
 import '../App.css';
 
@@ -39,9 +40,10 @@ class App extends Component {
                 <div>
                     <Router>
                         <div>
-                            {/* <Route exact path="/" component={Home} />
+                            <Route exact path="/" component={Home} />
                             <Route path="/about" component={About} />
-                            <Route path="/contact" component={Contact} /> */}
+                            <Route path="/work" component={Work} />
+                            <Route path="/contact" component={Contact} />
                         </div>
                     </Router>
                 </div>
