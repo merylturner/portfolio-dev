@@ -21,7 +21,7 @@
 }
 
 .App-intro {
-  font-size: large;
+  font-size: 16px;
 }
 
 .social i {
@@ -38,10 +38,12 @@
   font-size: 12px;
 }
 
+.wrapper {
+  min-height: calc(100vh - 70px);
+}
+
 .footer {
-  bottom: 10px;
-  position: fixed;
-  width: 100%;
+  height: 50px;
 }
 
 .nav {
@@ -56,10 +58,25 @@
 }
 
 .skills {
-  /* color:#7cb89a; */
+  /* color:rgb(124, 184, 154); */
   color:black;
   display: block;
   margin: 90px 50px;
+}
+
+.project {
+  width: 90%;
+  margin: 0 auto;
+  /* display: flex;
+  flex-direction: column;
+  flex-wrap: wrap; */
+}
+
+.project-skills a {
+  color:rgb(124, 184, 154);
+  margin: 0 2px;
+  font-size: 12px;
+  font-weight: 500;
 }
 
 /*          ELEMENTS         */
@@ -99,6 +116,10 @@ hr {
 
 header {
   margin-top: 80px;
+}
+
+p {
+  margin: 2% 20%;
 }
 /*          MEDIA QUERIES         */
 

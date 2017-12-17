@@ -19,15 +19,14 @@ export default function About() {
                 <h2>About me </h2>
             </header>
             <hr/>
-            I'm About all the stuff.
-            Checkout my Graphic Design <a href="https://www.madebymeryl.com">Portfolio</a>
-
+            <p>Born and raised in Portland, Oregon, I found a love for the PNW and it has continued to inspire my work.</p>
+            <p>Checkout my Graphic Design <a href="https://www.madebymeryl.com">Portfolio</a></p>
             <header>
                 <h2>Skills</h2>
             </header>
             <hr/>
             <div className="skills">
-                <div style={{margin: '20px auto'}}>
+                <div style={{margin: '20px auto'}} className="animated fadeInRight">
                     <span title="JavaScript"><i class="devicon-javascript-plain"></i></span>
                     <span title="React"><i class="devicon-react-original"></i></span>
                     <span title="AngularJS"><i class="devicon-angularjs-plain"></i></span>
@@ -37,7 +36,7 @@ export default function About() {
                 </div>
                 {/* <i class="devicon-heroku-original"></i> */}
                 {/* <i class="devicon-protractor-plain-wordmark"></i> */}
-                <div style={{margin: '20px auto'}}>
+                <div style={{margin: '20px auto'}} className="animated fadeInLeft">
                     <span title="HTML"><i class="devicon-html5-plain"></i></span>
                     <span title="LESS"><i class="devicon-less-plain-wordmark"></i></span>
                     <span title="AWS"><i class="devicon-amazonwebservices-original"></i></span>
@@ -47,9 +46,21 @@ export default function About() {
                 </div>
                 {/* Designer Icons
                 <div>
-                    <i class="devicon-illustrator-line"></i>
-                    <i class="devicon-photoshop-line"></i>
-                </div> */}
+                <i class="devicon-illustrator-line"></i>
+                <i class="devicon-photoshop-line"></i>
+            </div> */}
+            </div>
+            <header>
+                <h2>My Expertise</h2>
+            </header>
+            <div>
+                <h2>Code</h2>
+            </div>
+            <div>
+                <h2>Design</h2>
+            </div>
+            <div>
+                <h2>Ideas</h2>
             </div>
         </div>
     );
