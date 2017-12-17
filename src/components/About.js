@@ -19,9 +19,8 @@ export default function About() {
                 <h2>About me </h2>
             </header>
             <hr/>
-            I'm About all the stuff.
-            Checkout my Graphic Design <a href="https://www.madebymeryl.com">Portfolio</a>
-
+            <p>Born and raised in Portland, Oregon, I found a love for the PNW and it has continued to inspire my work.</p>
+            <p>Checkout my Graphic Design <a href="https://www.madebymeryl.com">Portfolio</a></p>
             <header>
                 <h2>Skills</h2>
             </header>
