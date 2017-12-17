@@ -8,6 +8,8 @@ import Work from './Work';
 import Contact from './Contact';
 
 import '../App.css';
+import '../animate.css';
+
 
 function Footer() {
     return(

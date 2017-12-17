@@ -16,7 +16,7 @@ export default function Home() {
         <div>
             <div>
                 <Navigation/>
-                <header className="App-header animated">
+                <header className="App-header animated bounceInRight">
                     <h1>Hey, I'm Meryl.</h1>
                 </header>
                 <p className="App-intro">I'm a Software Developer & Graphic Designer born and raised in Portland, Oregon.</p>
