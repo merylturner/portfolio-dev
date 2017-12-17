@@ -58,10 +58,25 @@
 }
 
 .skills {
-  /* color:#7cb89a; */
+  /* color:rgb(124, 184, 154); */
   color:black;
   display: block;
   margin: 90px 50px;
+}
+
+.project {
+  width: 90%;
+  margin: 0 auto;
+  /* display: flex;
+  flex-direction: column;
+  flex-wrap: wrap; */
+}
+
+.project-skills a {
+  color:rgb(124, 184, 154);
+  margin: 0 2px;
+  font-size: 12px;
+  font-weight: 500;
 }
 
 /*          ELEMENTS         */
