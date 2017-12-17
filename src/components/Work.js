@@ -19,7 +19,11 @@ export default function Work() {
                 <h2>My Work</h2>
             </header>
             <hr/>
-            Werk Werk Werk Werk Werk.
+            <div className="project animated fadeInLeft">
+                <h1>Project Title</h1>
+                <h5>JAVASCRIPT HTML CSS BLAH BLAH</h5>
+                <p>description description description description description</p>
+            </div>
         </div>
     );
 }

@@ -46,9 +46,21 @@ export default function About() {
                 </div>
                 {/* Designer Icons
                 <div>
-                    <i class="devicon-illustrator-line"></i>
-                    <i class="devicon-photoshop-line"></i>
-                </div> */}
+                <i class="devicon-illustrator-line"></i>
+                <i class="devicon-photoshop-line"></i>
+            </div> */}
+            </div>
+            <header>
+                <h2>My Expertise</h2>
+            </header>
+            <div>
+                <h2>Code</h2>
+            </div>
+            <div>
+                <h2>Design</h2>
+            </div>
+            <div>
+                <h2>Ideas</h2>
             </div>
         </div>
     );

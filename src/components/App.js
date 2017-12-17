@@ -32,13 +32,7 @@ class App extends Component {
     render() {
         return (
             <div className="App">
-                {/* <div>
-                    <header className="App-header">
-                        <h1>Hey, I'm Meryl</h1>
-                    </header>
-                    <p className="App-intro">I'm a Software Developer & Graphic Designer born and raised in Portland, Oregon.</p>
-                </div> */}
-                <div>
+                <div className = "wrapper">
                     <Router>
                         <div>
                             <Route exact path="/" component={Home} />
