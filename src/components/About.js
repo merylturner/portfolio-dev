@@ -50,7 +50,7 @@ export default function About() {
                 <i class="devicon-photoshop-line"></i>
             </div> */}
             </div>
-            <header>
+            {/* <header>
                 <h2>My Expertise</h2>
             </header>
             <div>
@@ -64,7 +64,7 @@ export default function About() {
             <div>
                 <h2>Ideas</h2>
                 <p>blahblahblahblahblahblahlb</p>
-            </div>
+            </div> */}
         </div>
     );
 }
