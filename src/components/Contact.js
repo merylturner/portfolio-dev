@@ -20,9 +20,9 @@ export default function Contact() {
                 <h2>Get In Touch</h2>
             </header>
             <hr/>
-            Send me an <a className="email" href="mailto:merylturner08@gmail.com?subject=CONTACT FORM SUBMISSION: merylturner.com">Email.</a>
+            Send me an <a className="email" href="mailto:merylturner08@gmail.com?subject=CONTACT FORM SUBMISSION: merylturner.com">Email,</a>
             <br/>
-            Or any of my social media profiles.<br/> I'd love to chat over beers!
+            or any of my social media profiles.<br/> I'd love to chat over beers!
         </div>
     );
 }
