@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
-import styled from 'styled-components';
+// import styled from 'styled-components';
 import Home from './Home';
 import About from './About';
 import Work from './Work';
