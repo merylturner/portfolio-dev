@@ -22,7 +22,7 @@ export default function Work() {
             <div className="project animated fadeInLeft">
                 <h3>GoldStar</h3>
                 <div className="project-skills"><a>React</a> <a>Redux</a> <a>NodeJS</a> <a>MongoDB</a></div>
-                <p>Full Stack JavaScript flashcard application for teachers and students. Teachers can create flashcard sets for all of their classes for students to study.</p>
+                <p>Full Stack JavaScript flashcard application for teachers and students. <br/>Teachers can create flashcard sets for all of their classes for students to study.</p>
                 <a href="http://gold-star.herokuapp.com/">Website </a>
                 <a href="https://github.com/GoldStarPDX">Repository</a>
             </div>
@@ -36,7 +36,7 @@ export default function Work() {
             <div className="project animated fadeInLeft">
                 <h3>Peer Politics</h3>
                 <div className="project-skills"> <a>NodeJS</a><a>SQL</a><a>Express</a><a>ChartJS</a></div>
-                <p>Full Stack JavaScript flashcard application for teachers and students. Teachers can create flashcard sets for all of their classes for students to study.</p>
+                <p>Political bias exploration using Node, ChartJS and SQL.</p>
                 <a href="http://peer-politics.herokuapp.com/">Website </a>
                 <a href="https://github.com/merylturner/Peer-Politics">Repository</a>
             </div>
@@ -47,6 +47,7 @@ export default function Work() {
                 <a href="http://logic-party.herokuapp.com/">Website </a>
                 <a href="https://github.com/merylturner/logic-puzzle">Repository</a>
             </div>
+            <div className="github-link"><a href="https://github.com/merylturner"><i class="fa fa-github" aria-hidden="true" style={{marginRight: 10, marginBottom: 50, color: '7cb89a'}}></i>View my full Github here</a></div>
         </div>
     );
 }
