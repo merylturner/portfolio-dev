@@ -55,12 +55,15 @@ export default function About() {
             </header>
             <div>
                 <h2>Code</h2>
+                <p>blahblahblahblahblahblahlb</p>
             </div>
             <div>
                 <h2>Design</h2>
+                <p>blahblahblahblahblahblahlb</p>
             </div>
             <div>
                 <h2>Ideas</h2>
+                <p>blahblahblahblahblahblahlb</p>
             </div>
         </div>
     );
