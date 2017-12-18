@@ -20,7 +20,7 @@ export default function About() {
             </header>
             <hr/>
             <p>Born and raised in Portland, Oregon, I found a love for the PNW and it has continued to inspire my work.</p>
-            <p>Checkout my Graphic Design <a href="https://www.madebymeryl.com">Portfolio</a></p>
+            <p><a href="https://www.madebymeryl.com">Checkout my Graphic Design Portfolio<i class="fa fa-pencil" aria-hidden="true" style={{marginLeft: 10}}></i></a></p>
             <header>
                 <h2>Skills</h2>
             </header>
