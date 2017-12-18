@@ -5,8 +5,9 @@ function Navigation() {
     return(
         <div className="nav">
             <Link to="/"> Home </Link>
-            <Link to="/contact"> Contact </Link>
+            <Link to="/about" className="active"> About </Link>
             <Link to="/work"> Work </Link>
+            <Link to="/contact"> Contact </Link>
         </div>
     );    
 }
@@ -20,7 +21,7 @@ export default function About() {
             </header>
             <hr/>
             <p>Born and raised in Portland, Oregon, I found a love for the PNW and it has continued to inspire my work.</p>
-            <p><a href="https://www.madebymeryl.com">Checkout my Graphic Design Portfolio<i class="fa fa-pencil" aria-hidden="true" style={{marginLeft: 10}}></i></a></p>
+            <p><a style={{color: 'black'}}href="https://www.madebymeryl.com">Checkout my Graphic Design Portfolio<i class="fa fa-pencil" aria-hidden="true" style={{marginLeft: 10}}></i></a></p>
             <header>
                 <h2>Skills</h2>
             </header>
