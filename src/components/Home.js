@@ -13,7 +13,6 @@ function Navigation() {
 }
 
 export default function Home() {
-    // let history = history.getCurrentLocation().pathname GET HISTORY FOR CURRENT LOCATION >> UPDATE NAV BARS TO ALL ROUTES, ONLY HIGHLIGHT CURRENT
     return (
         <div>
             <Navigation/>
