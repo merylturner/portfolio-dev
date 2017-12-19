@@ -20,9 +20,10 @@ export default function Contact() {
                 <h2>Get In Touch</h2>
             </header>
             <hr/>
-            Send me an <a className="email" href="mailto:merylturner08@gmail.com?subject=CONTACT FORM SUBMISSION: merylturner.com">Email,</a>
-            <br/>
-            or any of my social media profiles.<br/> I'd love to chat over beers!
+            <div className="contact">
+            If you're in Portland, you can reach out in a few different ways. <br/> Send me an <a href="mailto:merylturner08@gmail.com?subject=CONTACT FORM SUBMISSION: merylturner.com">email, </a>
+            message me on <a href="https://twitter.com/madebymeryl">Twitter</a> or <a href="https://www.instagram.com/madebymeryl/">Instagram.</a> <br/><br/>I'm always down to grab a beer and chat.
+            </div>
         </div>
     );
 }
