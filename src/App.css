@@ -39,7 +39,7 @@
 }
 
 .wrapper {
-  min-height: calc(100vh - 70px);
+  min-height: calc(100vh - 90px);
 }
 
 .footer {
@@ -47,14 +47,21 @@
 }
 
 .nav {
-  margin: 20px;
+  padding: 20px;
+  background-color: #7cb89a;
+  color: white;
 }
 
+
 .nav a {
-  font-weight: 700;
-  font-size: 15px;
+  font-weight: 600;
+  font-size: 18px;
   margin: 20px 20px;
-  color: black;
+  color: white;
+}
+
+.active {
+  color:black;
 }
 
 .skills {
@@ -73,10 +80,11 @@
   flex-wrap: wrap; */
 }
 
-.project a {
+.project a, .project a:visited {
   margin: 0 5px;
   font-size: 12px;
   font-weight: 700;
+  color:black;
 }
 
 .project-skills a {
@@ -95,6 +103,10 @@
   color: black;
 }
 
+.email {
+  color:#7cb89a;
+}
+
 /*          ELEMENTS         */
 
 i {
@@ -104,12 +116,11 @@ i {
 
 a {
   text-decoration: none;
-  color: black;
+  /* color: black; */
 }
 
-a:visited {
-  color: black;
-}
+/* a:visited {
+  /* color: black; */
 
 
 h2 {
@@ -141,7 +152,24 @@ html, body {
 }
 /*          MEDIA QUERIES         */
 
-/* @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-} */
+@media only screen and (max-width: 760px) {
+  width: fit-content;
+
+  .footer {
+    bottom: 5px;
+  }
+
+  .skills {
+    /* width: fit-content; */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  i {
+    font-size: 30px;
+    margin: 5px 5px;
+  }
+
+}

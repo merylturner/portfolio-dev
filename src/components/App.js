@@ -24,6 +24,7 @@ function Footer() {
             <div className="copyright">
             Meryl Turner &copy; 2017
             </div>
+            <br/>
         </div>
     );
 }
