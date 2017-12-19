@@ -20,7 +20,10 @@ export default function About() {
                 <h2>About me </h2>
             </header>
             <hr/>
-            <p>Born and raised in Portland, Oregon, I found a love for the PNW and it has continued to inspire my work.</p>
+            <p>Born and raised in Portland, Oregon, I found a love for the PNW<br/> and it has continued to inspire my work.</p>
+            <br/>
+            <br/>When I'm not building websites, you can find me running, hiking, <br/>exploring the coffee shops and local breweries of Portland. 
+
             <p><a style={{color: 'black'}}href="https://www.madebymeryl.com">Checkout my Graphic Design Portfolio<i class="fa fa-pencil" aria-hidden="true" style={{marginLeft: 10}}></i></a></p>
             <header>
                 <h2>Skills</h2>
@@ -65,6 +68,13 @@ export default function About() {
             <div>
                 <h2>Ideas</h2>
                 <p>blahblahblahblahblahblahlb</p>
+            </div> */}
+            {/* <header>
+                <h2>Resume</h2>
+            </header>
+            <hr/>
+            <div className="skills">
+                <a style={{color: 'black'}}href="ResumeMeryl.pdf" download="">Download</a>
             </div> */}
         </div>
     );

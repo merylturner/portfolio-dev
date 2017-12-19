@@ -26,7 +26,7 @@
 
 .social i {
   font-size: 20px;
-  margin: 5px;
+  margin: 8px 5px;
   color:black;
 }
 
@@ -34,6 +34,13 @@
   color:#7cb89a;
 }
 
+.contact {
+  margin: 0 250px;
+}
+
+.contact a, .contact a:visited {
+  color:#7cb89a;
+}
 .copyright {
   font-size: 12px;
 }
@@ -55,9 +62,10 @@
 
 .nav a {
   font-weight: 600;
-  font-size: 18px;
+  font-size: 16px;
   margin: 20px 20px;
   color: white;
+  letter-spacing: .5px;
 }
 
 .active {
@@ -75,9 +83,13 @@
   width: 90%;
   margin: 100px auto;
   font-size: 15px;
+
   /* display: flex;
   flex-direction: column;
   flex-wrap: wrap; */
+}
+.project-container {
+  margin: 0 120px;
 }
 
 .project a, .project a:visited {
@@ -119,10 +131,16 @@ a {
   /* color: black; */
 }
 
-/* a:visited {
-  /* color: black; */
-
-
+button {
+  background-color: #7cb89a;
+  border-radius: 5px;
+  color: white;
+  padding: 5px;
+  border: none;
+}
+button a {
+  color: white;
+}
 h2 {
   font-size: 30px;
   margin-bottom: 0;
@@ -143,6 +161,7 @@ header {
 
 p {
   margin: 2% 20%;
+  line-height: 1.2rem;
 }
 
 html, body {
