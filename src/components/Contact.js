@@ -19,7 +19,9 @@ export default function Contact() {
                 <h2>Get In Touch</h2>
             </header>
             <hr/>
-            Send me an <a href="mailto:merylturner08@gmail.com?subject=CONTACT FORM SUBMISSION: merylturner.com">Email</a>.
+            If you're in Portland, you can reach out in a few different ways. 
+            Send me an <a href="mailto:merylturner08@gmail.com?subject=CONTACT FORM SUBMISSION: merylturner.com">email,</a>
+            message me on Twitter or Instagram. I'm always down to grab a beer and chat.
         </div>
     );
 }
