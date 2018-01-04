@@ -21,8 +21,8 @@ export default function About() {
             </header>
             <hr/>
             <p>Born and raised in Portland, Oregon, I found a love for the PNW<br/> and it has continued to inspire my work.</p>
-            <br/>
-            <br/>When I'm not building websites, you can find me running, hiking, <br/>exploring the coffee shops and local breweries of Portland. 
+            {/* <br/> */}
+            <br/><p>When I'm not building websites, you can find me running, hiking, <br/>exploring the coffee shops and local breweries of Portland. </p>
 
             <p><a style={{color: 'black'}}href="https://www.madebymeryl.com">Checkout my Graphic Design Portfolio<i class="fa fa-pencil" aria-hidden="true" style={{marginLeft: 10}}></i></a></p>
             <header>
@@ -31,22 +31,22 @@ export default function About() {
             <hr/>
             <div className="skills">
                 <div style={{margin: '20px auto'}} className="animated fadeInRight">
-                    <span title="JavaScript"><i class="devicon-javascript-plain"></i></span>
-                    <span title="React"><i class="devicon-react-original"></i></span>
-                    <span title="AngularJS"><i class="devicon-angularjs-plain"></i></span>
-                    <span title="NodeJS"><i class="devicon-nodejs-plain-wordmark"></i></span>
-                    <span title="Git"><i class="devicon-git-plain"></i></span>
-                    <span title="CSS"><i class="devicon-css3-plain"></i></span>
+                    <span title="JavaScript"><i className="devicon-javascript-plain"></i></span>
+                    <span title="React"><i className="devicon-react-original"></i></span>
+                    <span title="AngularJS"><i className="devicon-angularjs-plain"></i></span>
+                    <span title="NodeJS"><i className="devicon-nodejs-plain-wordmark"></i></span>
+                    <span title="Git"><i className="devicon-git-plain"></i></span>
+                    <span title="CSS"><i className="devicon-css3-plain"></i></span>
                 </div>
                 {/* <i class="devicon-heroku-original"></i> */}
                 {/* <i class="devicon-protractor-plain-wordmark"></i> */}
                 <div style={{margin: '20px auto'}} className="animated fadeInLeft">
-                    <span title="HTML"><i class="devicon-html5-plain"></i></span>
-                    <span title="LESS"><i class="devicon-less-plain-wordmark"></i></span>
-                    <span title="AWS"><i class="devicon-amazonwebservices-original"></i></span>
-                    <span title="Python"><i class="devicon-python-plain"></i></span>
-                    <span title="Mocha"><i class="devicon-mocha-plain"></i></span>
-                    <span title="MongoDB"><i class="devicon-mongodb-plain"></i></span>
+                    <span title="HTML"><i className="devicon-html5-plain"></i></span>
+                    <span title="LESS"><i className="devicon-less-plain-wordmark"></i></span>
+                    <span title="AWS"><i className="devicon-amazonwebservices-original"></i></span>
+                    <span title="Python"><i className="devicon-python-plain"></i></span>
+                    <span title="Mocha"><i className="devicon-mocha-plain"></i></span>
+                    <span title="MongoDB"><i className="devicon-mongodb-plain"></i></span>
                 </div>
                 {/* Designer Icons
                 <div>
