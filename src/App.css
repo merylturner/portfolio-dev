@@ -185,6 +185,12 @@ html, body {
     flex-direction: column;
     flex-wrap: wrap;
   }
+
+  .nav a {
+    font-size: 14px;
+    padding: 0 2px;
+    margin: 5px 12px;
+  }
   
   .project-container {
     margin: 0 30px;
