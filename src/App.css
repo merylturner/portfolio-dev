@@ -191,9 +191,9 @@ html, body {
     padding: 0 2px;
     margin: 5px 12px;
   }
-  
+
   .project-container {
-    margin: 0 30px;
+    margin: 0 10px;
   }
 
   .contact {
@@ -210,8 +210,9 @@ html, body {
   }
 
   p {
-    margin: 0 30px;
+    margin: 0 20px;
     padding: 10px;
+    font-size: 15px;
   }
 
 
