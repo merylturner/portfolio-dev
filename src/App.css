@@ -179,16 +179,34 @@ html, body {
   }
 
   .skills {
-    /* width: fit-content; */
     margin: 0 auto;
+    margin-bottom: 60px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
   }
+  
+  .project-container {
+    margin: 0 30px;
+  }
+
+  .contact {
+    margin: 0 30px;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
 
   i {
-    font-size: 30px;
+    font-size: 35px;
     margin: 5px 5px;
   }
+
+  p {
+    margin: 0 30px;
+    padding: 10px;
+  }
+
 
 }
