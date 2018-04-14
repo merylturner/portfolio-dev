@@ -17,7 +17,7 @@ export default function About() {
         <div>
             <Navigation/>
             <header>
-                <h2>About me </h2>
+                <h2>About Me </h2>
             </header>
             <hr/>
             <p>Born and raised in Portland, Oregon, I found a love for the PNW<br/> and it has continued to inspire my work.</p>
